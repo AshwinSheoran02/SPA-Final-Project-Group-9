@@ -4,7 +4,7 @@ install.packages("diagram")
 library(diagram)
 
 stateNames <- c("Win","Not Win")
-Oz <- matrix(c(.8,1,0,.2),nrow=2, byrow=TRUE)
+Oz <- matrix(c(.8,0.67,0.2,.33),nrow=2, byrow=TRUE)
 row.names(Oz) <- stateNames; colnames(Oz) <- stateNames
 Oz
 
